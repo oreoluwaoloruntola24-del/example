@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#our{
+    text-align: center;
+    background-image: url(assests/restaurant.jpg);
+background-position: center;
+background-size: cover;
+color: white;
+height: 200px;
+padding-top: 10% ;
+padding-bottom: 15px;
+}
+.cover{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+.menudeco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.menudeco span{
+    width: 40px;
+    height: 1px;
+    background-color: orange;
+
+}
+.iconic{
+    color: orange;
+    font-size: 16px;
+}
+#foodmenu ul{
+margin-top: 10%;
+list-style-type: none;
+background-color: transparent;
+text-align: center;
+}
+#foodmenu {
+     display: flex;
+     justify-content: center;
+}
+#foodmenu ul{
+
+text-decoration-line: none;
+display: flex;
+gap: 10px;
+}
+#foodmenu button{
+background-color: transparent;
+padding: 14px 30px;
+border-radius: 15px;
+border: 1px solid black;
+}
+#foodmenu button:hover{
+    background-color: orange;
+    color: white;
+}
+
+#food{
+    gap: 20px;
+    color: black;
+    padding: 30px 0px;
+    
+}
+.card img{
+    height: 200px;
+    width: 200px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+#food .cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 9%;
+    margin-top: 20px;
+
+    
+}
+#food .card{
+    padding: 0px;  
+background-color: whitesmoke;
+}
+#food .card h3 p{
+font-size: 30px;
+}
+.cardtext {
+    text-align: left;
+    font-size: 12px;
+    padding: 15px;
+}
+#food .btn{
+    display: flex;
+    justify-content: space-between;
+}
+.btn button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: orange;
+}
+
+#end{
+    background-image: url(assests/restaurant.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    color: black;
+    padding: 5%;}
+    
+    .endbegin h4{    margin-top: 20px;   }
+    
+    .endbegin span{
+    height: 1px;
+    width: 40px ;
+    background-color: orange;
+    display: block;
+}
+#end .ending{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.ending button{
+margin-right: 70%;
+border: none;
+border-radius: 10px;
+background-color: orange;
+padding: 7px 10px ;
+
+}
+footer{
+    text-align: left;
+}
+
+
+

@@ -1,0 +1,41 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+footer{
+    background-color: black;
+    color: white;
+    padding: 5%;
+    
+}
+footer img{height: 50px;
+width: 50px; }
+footer section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+footer li{
+    list-style-type: none;
+    margin-bottom: 14px;
+}
+section h2{ 
+    margin-bottom: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 700;
+}
+footer>p{
+    text-align: center;
+    margin-top: 10px;
+}
+@media (max-width:500px) {
+    footer section{
+        flex-direction: column;
+    }
+    footer section div{
+        margin-bottom: 10pxm;
+    }
+}
